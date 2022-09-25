@@ -11,9 +11,9 @@ public class TestIterator {
     collection.add("Madison"); 
 
     Iterator<String> iterator = collection.iterator();//声明构造器
-    while (iterator.hasNext()) {
-      System.out.print(iterator.next().toUpperCase() + " ");
-    }
+    for(String element:collection)
+      System.out.print(iterator.next().toUpperCase() + " ");//下一个的转大写，输出字母
+
     System.out.println();
   }
 }
