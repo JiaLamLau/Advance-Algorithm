@@ -1,3 +1,5 @@
+package chapter23;
+
 public class QuickSort {
   public static void quickSort(int[] list) {
     quickSort(list, 0, list.length - 1);
@@ -34,7 +36,8 @@ public class QuickSort {
       }
     }
 
-    while (high > first && list[high] >= pivot)
+    while (high > first &&
+            list[high] >= pivot)
       high--;
 
     // Swap pivot with list[high]

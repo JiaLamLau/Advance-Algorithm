@@ -1,3 +1,5 @@
+package chapter23;
+
 public class InsertionSort {
   /** The method for sorting the numbers */
   public static void insertionSort(double[] list) {

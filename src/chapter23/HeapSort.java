@@ -1,3 +1,5 @@
+package chapter23;
+
 public class HeapSort {
   /** Heap sort method */
   public static <E extends Comparable> void heapSort(E[] list) {
