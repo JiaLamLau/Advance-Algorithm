@@ -19,6 +19,6 @@ public class TestLinkedHashSet {
 
     // Display the elements in the hash set
     for (String element: set)
-      System.out.print(element.toLowerCase() + " ");
+      System.out.print(element.toLowerCase() + " ");//转换成小写
   }
 } 

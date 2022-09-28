@@ -22,9 +22,9 @@ public class TestTreeSet {
     System.out.println("first(): " + treeSet.first());
     System.out.println("last(): " + treeSet.last());
     System.out.println("headSet(\"New York\"): " + 
-      treeSet.headSet("New York"));
+      treeSet.headSet("New York"));//在New York前面的元素
     System.out.println("tailSet(\"New York\"): " + 
-      treeSet.tailSet("New York"));
+      treeSet.tailSet("New York"));//在New York后面的元素
 
     // Use the methods in NavigableSet interface
     System.out.println("lower(\"P\"): " + treeSet.lower("P"));

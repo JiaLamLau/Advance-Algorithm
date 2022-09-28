@@ -33,7 +33,7 @@ public class CountKeywords {
         "while", "true", "false", "null"};
 
     Set<String> keywordSet = 
-      new HashSet<>(Arrays.asList(keywordString));
+      new HashSet<>(Arrays.asList(keywordString));//Arrays.asList的作用是转为lists
     int count = 0;    
 
     Scanner input = new Scanner(file);
