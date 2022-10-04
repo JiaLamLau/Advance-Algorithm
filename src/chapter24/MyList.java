@@ -25,7 +25,7 @@ public interface MyList<E> extends Collection<E> {
   /** Replace the element at the specified position in this list
    *  with the specified element and returns the new set. */
   public E set(int index, E e);
-  
+
   @Override /** Add a new element at the end of this list */
   public default boolean add(E e) {
     add(size(), e);
@@ -37,7 +37,7 @@ public interface MyList<E> extends Collection<E> {
     return size() == 0;
   }
 
-  @Override /** Remove the first occurrence of the element e 
+  @Override /** Remove the first occurrence of the element e
    *  from this list. Shift any subsequent elements to the left.
    *  Return true if the element is removed. */
   public default boolean remove(Object e) {
